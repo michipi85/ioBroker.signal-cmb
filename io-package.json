@@ -1,7 +1,7 @@
 {
     "common": {
         "name": "signal-cmb",
-        "version": "0.3.0",
+        "version": "0.3.1",
         "news": {
             "0.3.0":{
                 "en": "Updated 'package.json' to use a minimal version of NodeJS. Updated description to configure CallMeBot in  'index_m.html'. Updated configuration text with the GUID problem in README.",
@@ -213,7 +213,8 @@
         "blockly": true,
         "dependencies": [
             {
-                "js-controller": ">=2.0.0"
+                "js-controller": ">=5.0.19"
+                "admin": ">=6.0.0"
             }
         ],
         "messagebox": true
